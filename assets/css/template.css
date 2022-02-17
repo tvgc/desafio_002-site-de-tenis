@@ -38,19 +38,43 @@ header div {
     color: var(--color04);
     font-size: 28.49px;
     text-align: center;
+    font-weight: 400;
 }
 
 main .main_title {
     display: flex;
-    height: 128px;
+    height: 150px;
     justify-content: center;
     align-items: center;
     font-size: 46.49px;
+    font-weight: 400;
 }
 
 #banner {
-    /* background-image: url('images/Retangle 3.png'); parei aqui em descobrir como inserir a imagem do banner */
+    background-image: url('/assets/images/Rectangle\ 3.png');
+    height: 448px;
+    display: flex;
+    justify-content: center;
 }
 
+#banner .container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 1200px;
+}
 
+#banner .container h2 {
+    flex: 1;
+    color: var(--color04);
+    font-size: 46.49px;
+    font-weight: 400;
+}
+
+#banner .container h3 {
+    flex: 2;
+    color: var(--color04);
+    font-size: 28.49px;
+    font-weight: 400;
+}
 
