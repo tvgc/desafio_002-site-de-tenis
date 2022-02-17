@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*, *::before, *::after {
+    margin: auto 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color01: #25055A;
+    --color02: #DAE0F8;
+    --color03: #78747478;
+    --color04: #FFFFFF;
+    --color05: #000000;
+
+    --main-font: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--color02);
+    font-family: var(--main-font);
+}
+
+header {
+    width: 100%;
+    height: 88px;
+    background-color: var(--color01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    color: var(--color04);
+    font-size: 28.49px;
+    text-align: center;
+}
+
+main .main_title {
+    display: flex;
+    height: 128px;
+    justify-content: center;
+    align-items: center;
+    font-size: 46.49px;
+}
+
+#banner {
+    /* background-image: url('images/Retangle 3.png'); parei aqui em descobrir como inserir a imagem do banner */
+}
+
+
+
